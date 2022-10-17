@@ -9,7 +9,7 @@ Ivanovitch Silva created the model. A complete data pipeline was built using Goo
 
 The MLP experiment involved using Sweeps to experiment with different hyperparameters.The reference used was the minimum loss.
 #### settings MLPClassifier
-MLPClassifier( 
+MLPClassifier( <br>
                           hidden_layer_sizes=[100, 100, 75, 75, 50, 50],<br>
              alpha = 0.0001,<br>
              random_state = 30,<br>
@@ -42,10 +42,10 @@ To calculate the evaluations metrics is only necessary to run:
 
 The follow results will be shown:
 
- **Stage [Run]**                        | **Accuracy** | **F1** | **Precision** | **Recall** | 
+ **Stage [Run]**  | **Accuracy** | **F1** | **Precision** | **Recall** | 
 ---------------------------------|--------------|--------|---------------|------------|
- Train [likely-snow-4](https://wandb.ai/ivanovitch-silva/first_image_classifier/runs/2ebl5jzc?workspace=user-ivanovitch-silva) | ?      | ? | ?        | ?     |  
- Test [confused-sun-5](https://wandb.ai/ivanovitch-silva/first_image_classifier/runs/e8bwl5wq?workspace=user-ivanovitch-silva)  | 0.4533      | 0.4548 | 0.5435        | 0.4533     |
+ Train MLP        | 0.5986       | 0.6058 | 0.6206       | 0.5986        |  
+ Test KNN         | 0.4533       | 0.4548 | 0.5435       | 0.4533        |
 
 
 ## Ethical Considerations
