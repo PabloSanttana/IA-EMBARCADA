@@ -1,9 +1,21 @@
+
+
 # Model Card
 
 Model cards are a succinct approach for documenting the creation, use, and shortcomings of a model. The idea is to write a documentation such that a non-expert can understand the model card's contents. For additional information see the Model Card paper: https://arxiv.org/pdf/1810.03993.pdf
 
 ## Model Details
-Ivanovitch Silva created the model. A complete data pipeline was built using Google Colab, Scikit-Learn and Weights & Bias to train a KNN model. The big-picture of the data pipeline is shown below:
+Ivanovitch Silva created the model. A complete data pipeline was built using Google Colab, Scikit-Learn and Weights & Bias to train a KNN model VS MLP model created by: <strong>GUILHERME PABLO DE SANTANA MACIEL e THIAGO THEIRY DE OLIVEIRA</strong> . The big-picture of the data pipeline is shown below:
+
+The MLP experiment involved using Sweeps to experiment with different hyperparameters.The reference used was the minimum loss.
+#### settings MLPClassifier
+MLPClassifier( 
+                          hidden_layer_sizes=[100, 100, 75, 75, 50, 50],<br>
+             alpha = 0.0001,<br>
+             random_state = 30,<br>
+              max_iter=350<br>
+            )
+
 
 <img width="800" src="fig/workflow.png">
 
