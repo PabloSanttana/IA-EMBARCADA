@@ -28,7 +28,13 @@ Fizemos umas modificações no LeNet:
 
 # Tabela
 
+### Ordem Maior accuracy
+![fileOne](https://github.com/PabloSanttana/IA-EMBARCADA/blob/main/lessons/week_08/imgs/Captura%20de%20tela%202022-11-09%20232322.png)
+
+### Ordem Maior val_accuracy
+![fileOne](https://github.com/PabloSanttana/IA-EMBARCADA/blob/main/lessons/week_08/imgs/Captura%20de%20tela%202022-11-09%20232612.png)
 
 
 
+Os que tiveram as menores acurácias vieram das redes com a  função de ativação tanh e com um dropout de 0.25 o uso da Normalização teve uma pequena varia nas execuções. ou seja nesse caso a Normalização  não tem muita influência em relação aos piores casos.
 
