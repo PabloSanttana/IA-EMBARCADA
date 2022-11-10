@@ -1,3 +1,6 @@
+* GUILHERME PABLO DE SANTANA MACIEL
+* THIAGO THEIRY DE OLIVEIRA
+
 # Analisando os resultados obtidos
 
 Sabemos que o LeNet é realmente incrível, porem oque é bom pode se torna melhor.
