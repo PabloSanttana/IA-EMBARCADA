@@ -38,3 +38,5 @@ Fizemos umas modificações no LeNet:
 
 Os que tiveram as menores acurácias vieram das redes com a  função de ativação tanh e com um dropout de 0.25 o uso da Normalização teve uma varicação muito pequena. ou seja nesse caso a Normalização  não tem muita influência em relação aos piores casos.
 
+Já os que tiveram as maiores acurácias  vieram das redes com a  função de ativação relu e com o dropout de até 0.1 é sem o uso da Normalização.
+
