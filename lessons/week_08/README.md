@@ -9,3 +9,7 @@ Sabemos que o LeNet é realmente incrível, porem oque é bom pode se torna melh
 Nesse experimento usamos como base o código do professor [Ivanovitch Silva.](https://github.com/ivanovitchm/embedded.ai/blob/main/lessons/week_08/LeNet.ipynb) Tabem foi utilizado o Sweep do Wandb para nos auxiliar.
 
 O experimento tem como objetivos usarmos Dropout, batch Normalization e Relu, e fazemos Comparações
+![fileOne](https://github.com/PabloSanttana/IA-EMBARCADA/blob/main/lessons/week_08/Images/Captura%20de%20tela%202022-11-09%20223428.png)
+
+Fizemos umas modificações no LeNet:
+*  model.add(Conv2D(6, (5,5) ..) ==> model.add(Conv2D(8, (5,5) ..), geralmente convoluçâo é base 2
